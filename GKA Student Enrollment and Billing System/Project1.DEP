@@ -1,0 +1,41 @@
+[Version]
+Version=1.0.0.0
+
+[Project1.exe <0009>]
+Dest=$(AppPath)
+Date=6/26/2008
+Time=18:28
+Version=1.0.0.0
+CABFilename=CAFRGS.CAB
+CABINFFile=CAFRGS.INF
+Uses1=msvbvm60.dll
+Uses2=oleaut32.dll
+Uses3=olepro32.dll
+Uses4=asycfilt.dll
+Uses5=stdole2.tlb
+Uses6=COMCAT.DLL
+Uses7=DBGRID32.OCX
+Uses8=COMCT232.OCX
+Uses9=COMCTL32.OCX
+Uses10=MSCOMCTL.OCX
+Uses11=MSCOMCT2.OCX
+Uses12=COMCT332.OCX
+Uses13=MSCOMM32.OCX
+Uses14=MSADODC.OCX
+Uses15=MSDATGRD.OCX
+Uses16=msado20.tlb
+Uses17=MSDBRPTR.DLL
+Uses18=lvButton.ocx
+Uses19=GKADB.mdb
+
+[msado20.tlb <0009>]
+Dest=$(WinSysPath)
+Date=8/3/2004
+Time=13:21
+Version=2.81.1117.0
+
+[lvButton.ocx <0009>]
+Dest=$(WinSysPath)
+Date=3/20/2007
+Time=17:08
+Version=1.0.0.0
